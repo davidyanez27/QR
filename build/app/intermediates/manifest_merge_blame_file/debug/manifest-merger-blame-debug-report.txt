@@ -1,0 +1,175 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.residentes"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\david\Desktop\flutterApp-main\residentes\android\app\src\debug\AndroidManifest.xml:7:5-66
+15-->C:\Users\david\Desktop\flutterApp-main\residentes\android\app\src\debug\AndroidManifest.xml:7:22-64
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->[:flutter_barcode_scanner] C:\Users\david\Desktop\flutterApp-main\residentes\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-65
+16-->[:flutter_barcode_scanner] C:\Users\david\Desktop\flutterApp-main\residentes\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-62
+17
+18    <uses-feature android:name="android.hardware.camera" />
+18-->[:flutter_barcode_scanner] C:\Users\david\Desktop\flutterApp-main\residentes\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-60
+18-->[:flutter_barcode_scanner] C:\Users\david\Desktop\flutterApp-main\residentes\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:11:19-57
+19
+20    <uses-permission android:name="android.permission.FLASHLIGHT" />
+20-->[:flutter_barcode_scanner] C:\Users\david\Desktop\flutterApp-main\residentes\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-69
+20-->[:flutter_barcode_scanner] C:\Users\david\Desktop\flutterApp-main\residentes\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-66
+21
+22    <permission
+22-->[androidx.core:core:1.9.0] C:\Users\david\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+23        android:name="com.example.residentes.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.9.0] C:\Users\david\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.9.0] C:\Users\david\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+25
+26    <uses-permission android:name="com.example.residentes.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+26-->[androidx.core:core:1.9.0] C:\Users\david\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.9.0] C:\Users\david\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+27
+28    <application
+29        android:name="android.app.Application"
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.9.0] C:\Users\david\.gradle\caches\transforms-3\6710ee2e3546b398da00e75003abfc33\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+33        android:label="residentes"
+34        android:largeHeap="true"
+34-->[:flutter_barcode_scanner] C:\Users\david\Desktop\flutterApp-main\residentes\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-33
+35        android:theme="@style/Theme.AppCompat.NoActionBar" >
+35-->[:flutter_barcode_scanner] C:\Users\david\Desktop\flutterApp-main\residentes\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-59
+36        <activity
+37            android:name="com.example.residentes.MainActivity"
+38            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+39            android:exported="true"
+40            android:hardwareAccelerated="true"
+41            android:launchMode="singleTop"
+42            android:theme="@style/LaunchTheme"
+43            android:windowSoftInputMode="adjustResize" >
+44
+45            <!--
+46                 Specifies an Android theme to apply to this Activity as soon as
+47                 the Android process has started. This theme is visible to the user
+48                 while the Flutter UI initializes. After that, this theme continues
+49                 to determine the Window background behind the Flutter UI.
+50            -->
+51            <meta-data
+52                android:name="io.flutter.embedding.android.NormalTheme"
+53                android:resource="@style/NormalTheme" />
+54
+55            <intent-filter>
+56                <action android:name="android.intent.action.MAIN" />
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+59            </intent-filter>
+60        </activity>
+61        <!--
+62             Don't delete the meta-data below.
+63             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+64        -->
+65        <meta-data
+66            android:name="flutterEmbedding"
+67            android:value="2" />
+68
+69        <service
+69-->[:firebase_core] C:\Users\david\Desktop\flutterApp-main\residentes\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-14:19
+70            android:name="com.google.firebase.components.ComponentDiscoveryService"
+70-->[:firebase_core] C:\Users\david\Desktop\flutterApp-main\residentes\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:10:18-89
+71            android:directBootAware="true"
+71-->[com.google.firebase:firebase-common:20.1.2] C:\Users\david\.gradle\caches\transforms-3\149a2a13bd7d654da343b2ad76411743\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:35:13-43
+72            android:exported="false" >
+72-->[com.google.firebase:firebase-common:20.1.2] C:\Users\david\.gradle\caches\transforms-3\149a2a13bd7d654da343b2ad76411743\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:36:13-37
+73            <meta-data
+73-->[:firebase_core] C:\Users\david\Desktop\flutterApp-main\residentes\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+74                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+74-->[:firebase_core] C:\Users\david\Desktop\flutterApp-main\residentes\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[:firebase_core] C:\Users\david\Desktop\flutterApp-main\residentes\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+76        </service>
+77
+78        <activity android:name="com.amolg.flutterbarcodescanner.BarcodeCaptureActivity" />
+78-->[:flutter_barcode_scanner] C:\Users\david\Desktop\flutterApp-main\residentes\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-91
+78-->[:flutter_barcode_scanner] C:\Users\david\Desktop\flutterApp-main\residentes\build\flutter_barcode_scanner\intermediates\merged_manifest\debug\AndroidManifest.xml:18:19-88
+79
+80        <provider
+80-->[:share_plus] C:\Users\david\Desktop\flutterApp-main\residentes\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+81            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+81-->[:share_plus] C:\Users\david\Desktop\flutterApp-main\residentes\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-77
+82            android:authorities="com.example.residentes.flutter.share_provider"
+82-->[:share_plus] C:\Users\david\Desktop\flutterApp-main\residentes\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+83            android:exported="false"
+83-->[:share_plus] C:\Users\david\Desktop\flutterApp-main\residentes\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+84            android:grantUriPermissions="true" >
+84-->[:share_plus] C:\Users\david\Desktop\flutterApp-main\residentes\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+85            <meta-data
+85-->[:share_plus] C:\Users\david\Desktop\flutterApp-main\residentes\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:68
+86                android:name="android.support.FILE_PROVIDER_PATHS"
+86-->[:share_plus] C:\Users\david\Desktop\flutterApp-main\residentes\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+87                android:resource="@xml/flutter_share_file_paths" />
+87-->[:share_plus] C:\Users\david\Desktop\flutterApp-main\residentes\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-65
+88        </provider>
+89
+90        <activity
+90-->[:url_launcher_android] C:\Users\david\Desktop\flutterApp-main\residentes\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+91            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+91-->[:url_launcher_android] C:\Users\david\Desktop\flutterApp-main\residentes\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+92            android:exported="false"
+92-->[:url_launcher_android] C:\Users\david\Desktop\flutterApp-main\residentes\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+93            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+93-->[:url_launcher_android] C:\Users\david\Desktop\flutterApp-main\residentes\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+94
+95        <uses-library
+95-->[androidx.window:window:1.0.0-beta04] C:\Users\david\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+96            android:name="androidx.window.extensions"
+96-->[androidx.window:window:1.0.0-beta04] C:\Users\david\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+97            android:required="false" />
+97-->[androidx.window:window:1.0.0-beta04] C:\Users\david\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+98        <uses-library
+98-->[androidx.window:window:1.0.0-beta04] C:\Users\david\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+99            android:name="androidx.window.sidecar"
+99-->[androidx.window:window:1.0.0-beta04] C:\Users\david\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+100            android:required="false" />
+100-->[androidx.window:window:1.0.0-beta04] C:\Users\david\.gradle\caches\transforms-3\49bc944d29f70d45aa5add8e43e3247e\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+101
+102        <provider
+102-->[com.google.firebase:firebase-common:20.1.2] C:\Users\david\.gradle\caches\transforms-3\149a2a13bd7d654da343b2ad76411743\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:26:9-31:39
+103            android:name="com.google.firebase.provider.FirebaseInitProvider"
+103-->[com.google.firebase:firebase-common:20.1.2] C:\Users\david\.gradle\caches\transforms-3\149a2a13bd7d654da343b2ad76411743\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:27:13-77
+104            android:authorities="com.example.residentes.firebaseinitprovider"
+104-->[com.google.firebase:firebase-common:20.1.2] C:\Users\david\.gradle\caches\transforms-3\149a2a13bd7d654da343b2ad76411743\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:28:13-72
+105            android:directBootAware="true"
+105-->[com.google.firebase:firebase-common:20.1.2] C:\Users\david\.gradle\caches\transforms-3\149a2a13bd7d654da343b2ad76411743\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:29:13-43
+106            android:exported="false"
+106-->[com.google.firebase:firebase-common:20.1.2] C:\Users\david\.gradle\caches\transforms-3\149a2a13bd7d654da343b2ad76411743\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:30:13-37
+107            android:initOrder="100" />
+107-->[com.google.firebase:firebase-common:20.1.2] C:\Users\david\.gradle\caches\transforms-3\149a2a13bd7d654da343b2ad76411743\transformed\jetified-firebase-common-20.1.2\AndroidManifest.xml:31:13-36
+108
+109        <activity
+109-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\david\.gradle\caches\transforms-3\6068c20e673d4349a1bd1f4e3933aa39\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:23:9-26:75
+110            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+110-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\david\.gradle\caches\transforms-3\6068c20e673d4349a1bd1f4e3933aa39\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:24:13-79
+111            android:exported="false"
+111-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\david\.gradle\caches\transforms-3\6068c20e673d4349a1bd1f4e3933aa39\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:25:13-37
+112            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+112-->[com.google.android.gms:play-services-base:17.4.0] C:\Users\david\.gradle\caches\transforms-3\6068c20e673d4349a1bd1f4e3933aa39\transformed\jetified-play-services-base-17.4.0\AndroidManifest.xml:26:13-72
+113
+114        <meta-data
+114-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\david\.gradle\caches\transforms-3\6b0daa5fb4c2eb7e8b55778df9b972f6\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+115            android:name="com.google.android.gms.version"
+115-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\david\.gradle\caches\transforms-3\6b0daa5fb4c2eb7e8b55778df9b972f6\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+116            android:value="@integer/google_play_services_version" />
+116-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\david\.gradle\caches\transforms-3\6b0daa5fb4c2eb7e8b55778df9b972f6\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+117    </application>
+118
+119</manifest>
